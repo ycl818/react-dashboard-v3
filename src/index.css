@@ -1,0 +1,14 @@
+html {
+    height: 100%;
+
+    /* background-color: #19233C; */
+}
+body {
+    min-height: 100%;
+    
+    overflow: auto;
+}
+
+#root {
+    min-height: 100vh;
+}
