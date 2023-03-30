@@ -124,7 +124,12 @@ const GridLayout = ({ chartState }) => {
                     component={Link}
                     to={`/${widget.i}/edit`}
                     sx={{ width: "100%", height: "70%", marginTop: "-30" }}
+                    className="addPanelbtn"
                   >
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
                     <Typography variant="h5" sx={{ marginTop: "1rem" }}>
                       Add a new panel
                     </Typography>
